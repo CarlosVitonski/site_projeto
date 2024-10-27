@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h3,
+section h4,
+form button {
+    font-family: 'DynaPuff', serif;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+}
+
+.center {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #a30303;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: block;
+    align-items: center;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h3,
+section h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    text-align: center;
+    color: #a30303;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #8a9497;
+    text-align: center;
+}
+
+.image  {
+    height: 200px;
+}
+
+
+form {
+    margin-left: 40%;
+}
+
+form input,
+form textarea, 
+form button  {  
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #a30303;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #923b3b;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #a30303;
+}
+
+footer {
+    background-color: #a30303;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
